@@ -17,5 +17,4 @@
 .globe:hover {
     box-shadow: 1px 1px 20px rgb(235, 207, 207);
     transition: all .3s ease-in;
-    transform: scale(1.05);
 }

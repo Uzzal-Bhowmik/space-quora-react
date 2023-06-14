@@ -101,7 +101,7 @@ const WorldMap = () => {
     return (
         <div>
             <div className="map-container" >
-                <div id="map" className='worldmap'></div>
+                <div id="map" className='worldmap animate__animated animate__zoomIn animate__slow'></div>
                 <ToastContainer />
             </div>
 
