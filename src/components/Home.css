@@ -1,0 +1,21 @@
+.home {
+    height: 100vh;
+}
+
+.home h1 {
+    font-family: "Unbounded", cursive;
+}
+
+.home h1 span {
+    color: #d8833c;
+}
+
+.globe {
+    transition: all .4s ease-out;
+}
+
+.globe:hover {
+    box-shadow: 1px 1px 20px rgb(235, 207, 207);
+    transition: all .3s ease-in;
+    transform: scale(1.05);
+}

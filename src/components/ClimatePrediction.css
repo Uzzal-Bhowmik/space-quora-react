@@ -1,0 +1,9 @@
+.prediction-chart {
+    font-family: "Unbounded", cursive;
+    width: 90%;
+    margin: 4rem auto;
+}
+
+.prediction-chart h1 span {
+    color: #d8833c;
+}
