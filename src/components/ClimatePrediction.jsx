@@ -68,10 +68,10 @@ const ClimatePrediction = ({ latitude, longitude }) => {
                             yAxis: 0,
                             states: {
                                 hover: {
-                                    enabled: true, // Disable highlighting on hover
+                                    enabled: true,
                                 },
                                 inactive: {
-                                    opacity: 1, // Set the opacity of inactive state (not hovered) to 1 (fully visible)
+                                    opacity: 1,
                                 },
                             }
                         },
@@ -82,10 +82,10 @@ const ClimatePrediction = ({ latitude, longitude }) => {
                             yAxis: 1,
                             states: {
                                 hover: {
-                                    enabled: true, // Disable highlighting on hover
+                                    enabled: true,
                                 },
                                 inactive: {
-                                    opacity: 1, // Set the opacity of inactive state (not hovered) to 1 (fully visible)
+                                    opacity: 1,
                                 },
                             }
                         },
