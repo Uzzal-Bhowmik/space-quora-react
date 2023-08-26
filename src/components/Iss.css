@@ -1,0 +1,215 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&family=Unbounded&display=swap");
+
+.video_container {
+  position: absolute;
+  top: 50%;
+  left: 1230px;
+  border-radius: 20px;
+  height: 210px;
+  width: 295px;
+  background: #2c2f33;
+  box-shadow: 0.8rem 0.8rem 1.4rem #1a1c1e, -0.2rem -0.2rem 1.8rem #3e4248;
+}
+
+.video {
+  position: absolute;
+  height: 200px;
+  width: 280px;
+  top: 367px;
+  left: 1239px;
+  border-radius: 20px;
+}
+
+.about_iss {
+  position: absolute;
+  top: 12%;
+  right: 190px;
+  border-radius: 20px;
+  height: 46px;
+  width: 155px;
+  background: #2c2f33;
+  border: 1px solid rgb(79, 79, 101);
+  box-shadow: 0.8rem 0.8rem 1.4rem #363d45, -0.2rem -0.2rem 1.8rem #222c3c;
+  z-index: 999;
+}
+
+.body {
+  position: relative;
+  background: #2c2f33;
+  background: #2c2f33;
+  color: #ffffff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.neumorphic-container {
+  position: absolute;
+  right: 18%;
+  width: 946px;
+  height: 565px;
+  margin: 48px;
+  padding: 32px;
+  background: #2c2f33;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px #b5babf, 0 0 10px #2b3b53;
+}
+
+#ISSmap {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  border-radius: 35px;
+  width: 930px;
+  height: 545px;
+}
+
+/*-----------------*/
+
+input[type="checkbox"] {
+  border-radius: 25px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  -webkit-appearance: none;
+  background: #c6c6c6;
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[type="checkbox"] {
+  background: #4d5abeb6;
+}
+
+input[type="checkbox"]:before {
+  border-radius: 25px;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background: #1805e5;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0s;
+}
+
+input:checked[type="checkbox"]:before {
+  left: 20px;
+}
+
+input:hover[type="checkbox"] {
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+/*---------*/
+
+.iss_info {
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  top: 14px;
+  left: 10%;
+  color: #b4aeae;
+}
+
+.follow {
+  font-size: 12px;
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  top: 155px;
+  left: 86%;
+}
+
+.polyline {
+  font-size: 12px;
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  top: 195px;
+  left: 86%;
+}
+
+.title {
+  position: absolute;
+  font-family: "Unbounded", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  top: 47%;
+  left: -10%;
+  transform: rotate(-90deg);
+  font-weight: bolder;
+}
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: url("https://png.pngtree.com/background/20230403/original/pngtree-earth-from-space-elements-of-this-image-furnished-by-nasa-3d-picture-image_2274857.jpg");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+.fancy-apod-title {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: url("https://w0.peakpx.com/wallpaper/368/485/HD-wallpaper-earth-globe-continents-creative-art-earth-blue-background-ecology-concepts-thumbnail.jpg");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+.switch {
+  position: absolute;
+  top: 152px;
+  right: 233px;
+}
+
+.switch1 {
+  position: absolute;
+  top: 192px;
+  right: 233px;
+}
+
+.switch2 {
+  position: absolute;
+  top: 232px;
+  right: 233px;
+}
+
+.active {
+  color: #c6c6c6;
+}
+
+#blink {
+  position: fixed;
+  left: 1218px;
+  top: 346px;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(15, 171, 238);
+  border-radius: 100px;
+  margin: 20px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.nasa_logo {
+  position: relative;
+  left: 100px;
+}

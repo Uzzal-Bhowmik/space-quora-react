@@ -1,89 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .show-weather h1 {
-    font-family: "Unbounded", cursive;
-    margin-top: 90px;
+  font-family: "Unbounded", cursive;
+  margin-top: 90px;
 }
 
 .show-weather h1 span {
-    color: #d8833c;
+  color: #d8833c;
 }
 
 .weather-container p {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .weather-container h1 {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 .weather-container {
-    width: 100%;
-    /* margin-top: 100px; */
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
-    font-family: "Poppins", sans-serif;
+  width: 100%;
+  /* margin-top: 100px; */
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 
 .weather-container:before {
-    content: '';
-    background: url("../assets/clearsky.jpg") no-repeat center center/cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  content: "";
+  background: url("../assets/clearsky.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 ::placeholder {
-    color: #f8f8f8;
+  color: #f8f8f8;
 }
 
-.container {
-    max-width: 700px;
-    height: 700px;
-    margin: auto;
-    padding: 100px 1rem;
-    position: relative;
-    top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.weather-container .container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 100px 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .country small {
-    font-size: 15px;
-    margin: 0;
-    margin-right: 6px;
+  font-size: 15px;
+  margin: 0;
+  margin-right: 6px;
 }
 
-
 .weather-container .top {
-    width: 100%;
-    margin: 1rem auto;
+  width: 100%;
+  margin: 1rem auto;
 }
 
 .weather-container .description {
-    position: relative;
-    right: -90%;
-    transform-origin: 0 0;
-    transform: rotate(269deg);
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
 }
 
 .weather-container .bottom {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-
 .weather-container .bold {
-    font-weight: 700;
+  font-weight: 700;
 }

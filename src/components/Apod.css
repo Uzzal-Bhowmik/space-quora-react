@@ -1,0 +1,149 @@
+.apod {
+  font-family: "Space Grotesk", sans-serif;
+  color: white !important;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.9)),
+    url("https://c4.wallpaperflare.com/wallpaper/414/126/559/5bd334f8d938f-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+/* today apod styles --------------------- */
+.today {
+  padding-top: 50px;
+  padding-inline: 50px;
+  z-index: 1;
+}
+.apod-title {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.apod-search {
+  position: relative;
+}
+
+.apod-search input {
+  width: 370px !important;
+  height: 44px !important;
+  border-radius: 5px !important;
+  border: 1px solid #fff !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
+
+.apod-search input::-webkit-input-placeholder {
+  color: white !important;
+}
+
+#apod-search-icon {
+  height: 2rem !important;
+  width: 1.4rem !important;
+}
+
+.title-img {
+  text-align: center;
+  margin: 40px auto;
+}
+.title-img h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Unbounded", sans-serif;
+}
+.title-img img {
+  height: 470px;
+}
+.title-img img:hover {
+  transform: scale(1.04);
+}
+
+.error-text {
+  position: absolute;
+  bottom: -30px;
+  height: 40%;
+  width: 90%;
+  margin-left: 10px;
+}
+
+/* random apod styles ------------------ */
+
+.random-apods {
+  margin: 50px auto 20px auto;
+}
+
+.random-apod-title {
+  font-size: 2.9rem;
+  font-weight: bolder;
+  margin-left: 2rem;
+  color: #c91c2b;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #c91c2b 0%,
+    #f1b41c 50%,
+    #c05a06 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.random-apod-card {
+  width: 460px !important;
+  min-height: 300px !important;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(20, 35, 240, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.random-apod-card:hover img {
+  transform: scale(1.04) !important;
+  transition: all 0.3s !important;
+}
+
+/* swiper styles ----------------------- */
+.swiper {
+  width: 100%;
+  padding-top: 40px !important;
+  padding-bottom: 50px !important;
+}
+
+.swiper-pagination {
+  bottom: 25px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 11px !important;
+  height: 10px !important;
+  background-color: rgb(7, 203, 203) !important;
+}
+
+.see-details-btn {
+  width: 200px;
+}
+
+/* modal styles --------------------- */
+.modal-img {
+  transition: all 0.3s;
+}
+
+.modal-img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+.modal-content {
+  background-color: rgb(33, 36, 41) !important;
+  color: #fff !important;
+}
+
+.btn-close {
+  filter: var(--bs-btn-close-white-filter) !important;
+}

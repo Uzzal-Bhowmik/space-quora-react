@@ -1,16 +1,15 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import 'animate.css';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import "animate.css";
+import Navigation from "../components/Navigation";
 
 const Main = () => {
-    return (
-        <div>
-            {/* <Header /> */}
-            <Outlet />
-        </div>
-    );
+  return (
+    <div>
+      <Navigation />
+      <Outlet />
+    </div>
+  );
 };
 
 export default Main;
