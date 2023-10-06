@@ -17,11 +17,11 @@ Welcome to SpaceQuora, your go-to platform for satisfying your curiosity about s
 Welcome to SpaceQuora, a platform designed to bring the wonders of space to everyone. Our team has developed four incredible tools that provide easy access to space-related data and information. Explore the universe with us!
 
 ## Team Members<a name="team-members"></a>
-- Uzzal Bhowmk - Team Leader
-- Lamia Mustarin - Project Manager
-- Efaz Alam Mahi - Data Analyst
-- Imtiaz Mahmud Imty - Technical Lead
-- Sakhwat Hossain - Team Co-ordinator
+- <a href="https://github.com/Uzzal-Bhowmik">Uzzal Bhowmk</a> - Team Leader
+- <a href="https://github.com/lamia422">Lamia Mustarin</a> - Project Manager
+- <a href="https://github.com/efaz-dpi">Efaz Alam Mahi</a> - Data Analyst
+- <a href="https://github.com/imty-422">Imtiaz Mahmud Imty</a> - Technical Lead
+- <a href="https://github.com/shrudra">Sakhawat Hossain</a> - Team Co-ordinator
 
 ## Problem Statement<a name="problem-statement"></a>
 Understanding the vast amount of space data provided by NASA can be challenging for non-experts. SpaceQuora aims to solve this problem by consolidating and presenting this data in an accessible format for everyone.
@@ -37,7 +37,7 @@ Our Weather and Climate Forecast tool provides real-time weather information, hi
 
 Our 'Track the ISS!' tool offers a real-time 2D world map view of the International Space Station's (ISS) live position. Users can also track the ISS's path over the last hour and receive email notifications when it passes over their location.
 
-### APOD - Astronomy Picture of the Day<a name="apod-astronomy-picture-of-the-day"></a
+### APOD - Astronomy Picture of the Day<a name="apod-astronomy-picture-of-the-day"></a>
 
 Explore stunning space images with our APOD tool. Discover NASA's Astronomy Picture of the Day and explore historic images. Users can search for images from any day and enjoy the beauty of space.
 
@@ -52,4 +52,3 @@ Visualize Earth's orbiting satellites in three dimensions with our 3D Satellite 
 
 
 Join us on this cosmic journey with SpaceQuora. Explore the universe like never before!
-
